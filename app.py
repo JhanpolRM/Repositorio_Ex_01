@@ -4,14 +4,14 @@ import numpy as np
 from libreria_funciones_proyecto1 import calcular_indicadores_mantenimiento
 from libreria_clases_proyecto1 import EquipoMantenimiento
 
-#CONFIGURACIÓN DE PESTAÑA DE LA APP WEB#
+#CONFIGURACIÓN DE PESTAÑA DE LA APP WEB
 st.set_page_config(page_title="PROYECTO STREAMLIT", page_icon="🐍")
 
-#CONFIGURACIÓN DE VARIABLES #
+#CONFIGURACIÓN DE VARIABLES
 # Creamos listas vacias de variables para guardar datos mientras la app está abierta.
 # session_state permite que los datos no se borren al presionar botones.
 
-#MENU LATERAL#
+#MENU LATERAL
 st.sidebar.image("Logo_dmc_institute_02.png")
 st.sidebar.title("Navegación", text_alignment="center")
 pagina = st.sidebar.selectbox("Seleccione una sección",["🏠 Home", "📋 Ejercicio 1", "📋 Ejercicio 2", "📋 Ejercicio 3", "📋 Ejercicio 4"])
