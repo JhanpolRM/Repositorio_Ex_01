@@ -38,12 +38,6 @@ if pagina == "🏠 Home":
     """, text_alignment="justify")
     st.markdown("---")
     st.markdown("""
-    ### 👨‍🔧*Elaborado por*
-    **Jhanpol Rosales Muñoz**\n 
-    Bachiller en Ingeniería Mecánica.
-    """)
-    st.markdown("---")
-    st.markdown("""
     ### 💻*Tecnologías utilizadas*
 
     - **Python:** lenguaje principal de programación.
@@ -52,6 +46,12 @@ if pagina == "🏠 Home":
     - **Pandas:** creación y visualización de tablas tipo DataFrame.
     - **Librerías externas:** uso de archivos `.py` con funciones y clases.
     """, text_alignment="justify")
+    st.markdown("---")
+    st.markdown("""
+    ### 👨‍🔧*Elaborado por*
+    **Jhanpol Rosales Muñoz**\n 
+    Bachiller en Ingeniería Mecánica.
+    """)
     st.markdown("---")
     st.subheader("*2026*", text_alignment="center")
 
