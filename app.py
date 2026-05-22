@@ -36,13 +36,13 @@ if pagina == "🏠 Home":
     3. **Uso de funciones desde una librería externa.**
     4. **Uso de clases desde una librería externa con operaciones CRUD.**
     """, text_alignment="justify")
-    
+    st.markdown("---")
     st.markdown("""
     ### 👨‍🔧*Elaborado por*
     **Jhanpol Rosales Muñoz**\n 
     Bachiller en Ingeniería Mecánica.
     """)
-   
+    st.markdown("---")
     st.markdown("""
     ### 💻*Tecnologías utilizadas*
 
