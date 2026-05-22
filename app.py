@@ -27,9 +27,9 @@ if pagina == "🏠 Home":
 
     Esta aplicación fue desarrollada en **Python** usando **Streamlit**. Su objetivo es demostrar
     el uso de estructuras de datos, widgets interactivos, funciones externas, clases y lógica de
-    programación dentro de una interfaz web sencilla.
+    programación dentro de una interfaz web.
 
-    La aplicación está organizada en cuatro ejercicios prácticos:
+    La aplicación está organizada en cuatro ejercicios:
 
     1. **Flujo de caja con listas.**
     2. **Registro de productos con NumPy, arrays y DataFrame.**
