@@ -74,7 +74,6 @@ elif pagina == "📋 Ejercicio 1":
     - Saldo final.
     - Estado del flujo de caja.
     """, text_alignment="justify")
-    st.markdown("___")
 
     st.subheader("Registrar movimiento financiero")
     concepto=st.text_input("Ingrese el concepto del movimiento", placeholder="Ejemplo: Venta, Compra, Pago")
@@ -152,7 +151,6 @@ elif pagina=="📋 Ejercicio 2":
     - Cantidad.
     - Total.
     """, text_alignment="justify")
-   st.markdown("___")
 
    st.subheader("Registro de productos")
 
@@ -239,7 +237,6 @@ elif pagina == "📋 Ejercicio 3":
     - MTTR (Mean Time To Repair /tiempo medio de reparación).
     - Disponibilidad.
     """, text_alignment="justify")
-    st.markdown("___")
 
     funcion_seleccionada= st.selectbox("Seleccione la función", ["calcular_indicadores_mantenimiento"])
 
@@ -314,7 +311,6 @@ elif pagina=="📋 Ejercicio 4":
         - **Actualizar:** modificar datos de un equipo.
         - **Eliminar:** borrar equipos registrados.
         """, text_alignment="justify")
-    st.markdown("___")
 
     # Menú de navegación de CRUD
     opcion = st.sidebar.selectbox("Selecciona una actividad",
